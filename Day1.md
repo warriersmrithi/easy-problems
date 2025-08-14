@@ -1,8 +1,8 @@
 ```python
-print("Namma Shivaya!")
+print("Namah Shivaya!")
 ```
 
-    Namma Shivaya!
+    Namah Shivaya!
     
 
 
