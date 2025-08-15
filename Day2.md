@@ -1,7 +1,7 @@
 ```python
-p=int(input("enter the principal amount"))
-r=int(input("enter the rate of interest"))
-t=int(input("enter the period(in years)"))
+p=float(input("enter the principal amount"))
+r=float(input("enter the rate of interest"))
+t=float(input("enter the period(in years)"))
 SI=(p*r*t)/100
 print("simple interest =",SI)
 ```
@@ -16,7 +16,7 @@ print("simple interest =",SI)
 
 
 ```python
-a=int(input("enter a number"))
+a=float(input("enter a number"))
 if a<0:
     print("the number is negative.")
 elif a>0:
@@ -33,8 +33,8 @@ else:
 
 
 ```python
-n=int(input("enter a number:"))
-k=int(input("enter another number:"))
+n=int(input("enter the dividend::"))
+k=int(input("enter the divisor":"))
 print("the reminder is",n%k)
 ```
 
